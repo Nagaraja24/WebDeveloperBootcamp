@@ -1,0 +1,5 @@
+To grab content of inner html:
+
+var p = document.querySelector('p');
+p.innerText;  --> This is really Good  --> Can set only pure string
+p.innerHtml;  --> This is really <strong> Good </Good>  --> Can set html tags 

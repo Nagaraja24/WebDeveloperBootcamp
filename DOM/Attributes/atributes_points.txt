@@ -1,0 +1,15 @@
+Use getAttribute() and setAttribute() to read and write attributes like src and href
+
+var img1 = document.querySelector("img");
+img1.getAttribute("src");
+img1.setAttribute("src", "newLink");
+
+var links = docuent.querySelector("a")[0];
+links.getAttribute("href");
+links.setAttribute("href", "http://google.com");
+
+var linksAll = docuement.getElementByTag("a");
+//linksAll is not really  array -- Cant use forEach
+for(var i=0; i< linksAll.length; i++){
+	links[i].style.border = "1px solid green";
+}
